@@ -1,8 +1,8 @@
 ---
-title: "Seminar 2a"
+title: "First Markdown File"
 author: "GH"
-date: "January 16, 2019"
-output: html_document
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
@@ -10,6 +10,38 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## R Markdown
+### Subheading
+#### Subsubheading 
+# Practicing Lists
+
+* Fruits
+    * bananas
+    * pineapples
+    * mangosteens
+* Veggies
+    + carrots
+    + celery
+    + cabbage
+  
+Don't know what I'm doing
+
+1. Take 1
+2. Take 2
+3. Take 3
+
+[Link to GitHub](https://github.com/)
+
+![Who doesn't like puppies?](http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg)
+  
+*I'm allergic to cats*
+
+**But not to dogs**
+
+Pir^2^
+
+~~pizza~~
+
+inline equation: $E = mc^{2}$
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
